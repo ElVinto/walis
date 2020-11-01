@@ -1,0 +1,6 @@
+node_modules
+client/node_modules
+dev-info
+.DS_Store
+.env
+other
