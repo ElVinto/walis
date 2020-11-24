@@ -8,7 +8,7 @@
 
       <div class="row"> 
           <div id="selectors" class="col-sm-3">
-
+              <p style="margin-top:5px"><b> WALIS-PE</b></p>
           </div>
             
             <button type="button" class="btn btn-secondary col-sm-3" v-on:click="displayLineCharts()" style= "outline-style:solid; outline-color:white; outline-width:1px" >
@@ -32,8 +32,15 @@
         <div id="selectors" class="col-sm-3">
 
           <div id="locNames"  >
-            <p><b> Lieu : </b></p>
+            <!-- <p><b> Lieu : </b></p> -->
+
+            <div class="row">
+              <div class="btn-primary col-sm-12" style="text-align:centre">
+              Lieu
+                </div>
+            </div>
             
+            <br>
             
             <b-list-group style="align-centre">
               <b-list-group-item button
@@ -49,14 +56,21 @@
 
           <hr/>
 
-         <div id="period"  > 
+          <div id="period"  > 
 
-            <p><b> Période </b></p>
+            <div class="row">
+              <div class="btn-primary col-sm-12" style="text-align:centre">
+              Période
+                </div>
+            </div>
+            
+            <br>
+            <!-- <p><b> Période </b></p> -->
           
             <div id="startDateInterval" class ="row" >
 
               <div class = "col-sm-2">
-                du :
+                du
               </div>
 
               <div id="startDate" class = "col-sm-10">
@@ -69,11 +83,11 @@
                     </option>
                 </select>
               </div>
-
             </div>
+
             <div id="endDateInterval" class ="row" >
               <div class = "col-sm-2">
-                au :
+                au
               </div>
 
               <div id="endDate" class = "col-sm-10">  
@@ -92,14 +106,22 @@
           </div>  
 
           <hr>
-          <div id="targetingDate"  > 
+          <div id="targetingDate" > 
             
-            <p><b> Centrer autour </b></p>
+            <!-- <p><b> Centrer autour </b></p> -->
+
+            <div class="row">
+              <div class="btn-primary col-sm-12" style="text-align:centre">
+              Centrer autour
+                </div>
+            </div>
+
+            <br>
             
             <div id="arroundDate" class ="row" >
 
-              <div class = "col-sm-2">
-                du :
+              <div class = "col-sm-2"  >
+                du
               </div>
 
               <div id="targetdate" class = "col-sm-10">
@@ -113,10 +135,27 @@
                 </select>
               </div>
             </div>
+
+            <div id="arroundDateNbDays" class ="row" >
+
+              <div class = "col-sm-2"  >
+                +/-
+              </div>
+
+              <div class = "col-sm-8" style="font-size:x-small" >
+                7 jours 
+              </div>
+            </div>
             
           </div>  
- 
+          
           <hr/>
+
+          <div class="row">
+              <div class="btn btn-secondary col-sm-12" v-on:click="reInitDates()" style="text-align:centre">
+              Réinitialiser
+                </div>
+            </div>
 
         </div>
 
@@ -251,9 +290,10 @@ export default {
       this.displayHistogram= true;
     },
 
-    indexOf: function(){
-
-    }
+    reInitDates: function(){
+      this.$store.state.selectedStartingDate= '2019-03-29';
+      this.$store.state.selectedEndingDate= '2019-07-15';
+    },
     
   },
 
