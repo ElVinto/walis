@@ -124,6 +124,7 @@ export default {
             this.chartData.datasets.push(
                 {
                     label: "min",
+                    borderWidth: 0.7,
                     yAxisID: 'A',
                     data: forecastMeas['min'],
                     fill: false,
@@ -134,6 +135,7 @@ export default {
             this.chartData.datasets.push(
                 {
                     label: "max",
+                    borderWidth: 0.7,
                     yAxisID: 'A',
                     data: forecastMeas['max'],
                     fill: false,

@@ -15,6 +15,7 @@ export default {
         return{
 
             chartData: {
+                
                 labels: [],
                 datasets: []
             },
@@ -23,6 +24,8 @@ export default {
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
+                borderWidth: 10,
+
                 legend: {
                     position: 'bottom'
                 },
@@ -138,6 +141,7 @@ export default {
                     {
                         label: m,
                         yAxisID: 'A',
+                        borderWidth: 0.7,
                         // data: this.$store.getters.getAllForecasts[this.$store.getters.getSelectedLocName][this.forecastParams.inout][m][this.forecastParams.meas],
                         data: forecastMeas.member[m],
 

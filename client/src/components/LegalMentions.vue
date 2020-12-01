@@ -2,7 +2,7 @@
   <div class="global">
     <h4>Mentions légales | Crédits | Confidentialité</h4>
     <p>
-      Le site Crop2ML <a href=" https://walis.herokuapp.com/"> https://walis.herokuapp.com/</a> est une application web développée par  <a href="https://www.inrae.fr">INRAE</a>.
+      Le site Crop2ML <a href=" https://walis-demo.herokuapp.com/"> https://walis-demo.herokuapp.com/</a> est une application web développée par  <a href="https://www.inrae.fr">INRAE</a>.
       Sa publication et son développement sont financés par  <a href="https://www.hdigitag.fr/">#DigitAg</a>, l’Institut Convergences Agriculture Numérique.
       A ce titre, il a bénéficié d’une aide de l’État gérée par l’Agence Nationale de la Recherche au titre du programme d’Investissements d’Avenir portant la référence ANR-16-CONV-0004.
     </p>
