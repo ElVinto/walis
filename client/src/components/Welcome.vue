@@ -37,7 +37,7 @@
           </p>
 
           <p > 
-            (A compléter)
+            (A compléter) Expliquer les objectifs de l'application Walis-PE, les prévisions qui y sont calculées, comment et pourquoi sont elles utilisées. 
           </p>
 
           <!-- <p>
@@ -65,7 +65,7 @@
       <h5>Bienvenue</h5><br>
 
       <p>
-        TODO explain how to interact with the application
+        (A compléter) Expliquer comment les  utilisateurs peuvent interagir avec l application.
       </p>
       
     </div>
