@@ -12,19 +12,19 @@
       <!-- <div id="btnScenario" style="width: auto; opacity:80%;">
         <b-button to="/InputForecasts" variant="dark" style="width: auto;">
           
-          <h3>WALIS-PE</h3>
+          <h3>Demonstrateur</h3>
         </b-button>  
         <br>   
       </div> -->
 
-      <div id="btnGuide">
+      <!-- <div id="btnGuide">
         <b-button id="btnGuide" variant="dark" v-b-toggle.sidebar-footer style="opacity:80%">
-            <!-- <img src="images/guid.png"/> -->
+             <img src="images/guid.png"/> 
             Guide utilisateur
         </b-button>
-      </div>
+      </div> -->
 
-      <div id="objective" class="card bg-dark text-white" style="opacity:90%">
+      <!-- <div id="objective" class="card bg-dark text-white" style="opacity:90%">
       
         <div class="card-body" >
           <p>
@@ -40,10 +40,6 @@
             (A compléter) Expliquer les objectifs de l'application Walis-PE, les prévisions qui y sont calculées, comment et pourquoi sont elles utilisées. 
           </p>
 
-          <!-- <p>
-            
-          </p> -->
-
           <p>Contacts : Ivana ALEKSOVSKA (ivana.aleksovka@acta.asso.fr), <br>
             Francois BRUN (francois.brun@acta.asso.fr),
             
@@ -52,7 +48,7 @@
           <p>Développeur : Vincent ARMANT, INRAE</p>
         </div>
 
-      </div>
+      </div> -->
 
       <b-sidebar id="sidebar-footer" aria-label="Sidebar with custom footer" no-header shadow>
     
@@ -134,7 +130,8 @@ export default {
   
   #title {color:rgb(105, 103, 101);
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1;
+    padding-top: 20px;
   }
 
   #btnScenario { 
