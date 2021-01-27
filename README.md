@@ -1,5 +1,16 @@
 # Binvenue sur l application Walis
 
+Le demonstrateur a pour objectif de visulaliser une une série de prévisions d’ensemble issu du modèle de bilan hydrique en viticulture WaLIS .
+
+Le modèle prend en entrée :
+<ul>
+    <li> une série de données observées (i.e. des données passées) à partir du 29/03 de l’année en cours pour plusieurs variables météo. </li>
+    <li> une série de prévisions. Dans le cas des prévisions d’ensemble, la série est composée de 50 scénarios différents i.e. 50 données pour chaque date et pour les mêmes variables météo. </li>
+</ul>
+
+Il retourne une série contenant la variable calculée par le modèle (FTSW).
+
+
 ## Contributeurs
 
 
