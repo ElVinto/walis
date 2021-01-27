@@ -1,4 +1,4 @@
-# Binvenue sur l application Walis
+# Bienvenue sur l'application Walis
 
 Le demonstrateur a pour objectif de visulaliser une une série de prévisions d’ensemble issu du modèle de bilan hydrique en viticulture WaLIS .
 
